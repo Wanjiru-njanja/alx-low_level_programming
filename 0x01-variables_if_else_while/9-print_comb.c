@@ -2,19 +2,18 @@
 
 /**
  * main - prints all possible combinations of single-digit numbers with commas and spaces
- *
  * Description: using main function
- * this program prints "0-9 separated by commas"
+ * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
  * Return: 0
  */
 int main(void)
 {
 	int c;
 
-	for (c = 38;  c <= 47; c++)
+	for (c = 48;  c <= 57; c++)
 	{
 		putchar(c);
-		if (c != 47)
+		if (c != 57)
 		{
 			putchar(',');
 			putchar(' ');
