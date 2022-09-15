@@ -2,6 +2,7 @@
 
 /**
  * print putchar
+ * Descripion: using the main function
  * Return: 0
  */
 
