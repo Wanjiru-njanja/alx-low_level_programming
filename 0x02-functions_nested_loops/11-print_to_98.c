@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * prints_to_98 - func that prints all the natural numbers from input to 98
  * separate the numbers with commas follwed by a space
