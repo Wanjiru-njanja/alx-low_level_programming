@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*more_underscore - function that prints numbers to 14
+*more_numbers - function that prints numbers to 14
 *
 *Return: returns nothing
 */
