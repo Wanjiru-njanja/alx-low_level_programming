@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_diagsums - function that prints the sum of the two diagonals of a square matrix
  * @a: pointer to start of matrix
@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 	}
 	for (j = 0; j < size; j++)
 	{
-		p = (j * size) + (size - i - j);
+		p = (j * size) + (size - l - j);
 		r += *(a + p);
 	}
 	printf("%i, %i\n", l, r);
