@@ -4,12 +4,12 @@
  * _strstr - function that locates a substring
  * @haystack: string to check for needle
  * @needle: substring to be found in haystack
- * Return: pointer to the beginning of needle in haystack and null if no match is found
+ * Return: pointer to the beginning of needle in haystack or null if no match is found
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i, j;
+	unsigned int i = 0, j = 0;
 
 	while (haystack[i])
 	{
